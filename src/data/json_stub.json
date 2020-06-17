@@ -1,224 +1,228 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "name": "Kevin Wang",
+        "picture": "https://gdurl.com/GYUk",
+        "title": "Game Engine Developer",
+        "summary": "Passionate about game, machine learning, hacking techs. Also a poker player.",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
-        },
-        "profiles": [
-            {
-                "network": "Twitter",
-                "username": "john",
-                "url": "http://twitter.com/john"
-            }
-        ]
+            "locationCountryCode": "GB",
+            "city": "London"
+        }
     },
     "work": [
         {
-            "name": "Company 2 ",
-            "position": "Worker",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "name": "Zappar",
+            "position": "Game Engine Developer",
+            "index": 0,
+            "startDate": "2016-07-01",
+            "summary": "• Developed robust 3D model and image processing systems to load all\npopular and modern file formats, making the AR studio more accessible.\n• Integrated Sketchfab API, allowing developers to download contents directly\nfrom Sketchfab. User base was increased dramatically.\n• Implemented a modern physically based rendering pipeline. Added real time\ndynamic lighting and shadow to increase reality.\n• Implemented a dynamic UTF-8 font rendering approach, making it more\nfriendly for non-Latin languages.\n• Integrated Bullet Physics API into the AR studio, allowing users to create and\nexperience physical interactions.\n• Wrote cross-platform engine codes on Windows, MacOS and Linux.\nOptimized app performance on iOS&Android.\n• Collaborated with product managers and 3D artists, provide customized\nshaders and tailored tech opinions.\n• Worked closely with tech support team to deliver new features and provide\nsolutions on the developer forum.",
+            "location": "London, United Kingdom",
+            "placeId": "ChIJdd4hrwug2EcRmSrV3Vo6llI",
+            "id": "-M9yuZMzxGBGgn6kVZTm"
         },
         {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "name": "Veemee",
+            "position": "R&D Game Developer",
+            "index": 1,
+            "startDate": "2015-11-01",
+            "endDate": "2016-07-01",
+            "summary": "• Using Unity engine, individually developed and launched two mobile games\ninto Google Play store.\n• Built in-house multi-threaded tools for converting models to and from fbx\nformats, increasing the efficiency for managing 3D assets.\n• Leveraged character physics knowledge and developed a ragdoll system for",
+            "location": "Edinburgh, United Kingdom",
+            "placeId": "ChIJIyaYpQC4h0gRJxfnfHsU8mQ",
+            "id": "-M9yuZMzxGBGgn6kVZTn"
         },
         {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        }
-    ],
-    "volunteer": [
-        {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
+            "name": "Havok",
+            "position": "Software Engineer",
+            "index": 3,
+            "startDate": "2013-08-01",
+            "endDate": "2014-05-01",
+            "summary": "• Implemented in-house GUI tools for 3D assets and image processing, providing the team with a more efficient way of managing files.\n• Contributed to developing a mobile game engine. Participated in code reviews with other team members on a regular basis.\n• Collaborated with the QA team to create detailed, comprehensive and well-structured test plans for military simulation apps.",
+            "location": "Dublin, Ireland",
+            "placeId": "ChIJL6wn6oAOZ0gRoHExl6nHAAo",
+            "id": "-MA25XIkgSh_sm0MT2Wk"
         }
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "id": "-M9yuZN-sQelq4pMUf-s",
+            "institution": "Trinity College, Dublin",
+            "index": 0,
+            "studyType": "Master's Degree, Computer Science, Interactive Entertainment Technology",
+            "endDate": "2015-01-01"
         },
         {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        }
-    ],
-    "awards": [
+            "id": "-M9yuZN-sQelq4pMUf-t",
+            "institution": "Dublin Institute of Technology",
+            "index": 1,
+            "studyType": "Bachelor of Science (B.Sc.), Computer Science",
+            "endDate": "2013-01-01"
+        },
         {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
+            "id": "-M9yuZN-sQelq4pMUf-u",
+            "institution": "Harbin Institute of Technology",
+            "index": 2,
+            "studyType": "Bachelor's degree, Computer Software Engineering",
+            "endDate": "2011-01-01"
         }
     ],
     "skills": [
         {
-            "name": "Reactaaa",
-            "level": "Master",
-            "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "C++",
+            "value": 80
         },
         {
-            "name": "Angular",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "Python",
+            "value": 60
         },
         {
-            "name": "NodeJS",
-            "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "OpenGL",
+            "value": 70
         },
         {
-            "name": "Firebase",
-            "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "id": "-M5CNXKyRIMA4Xys7zu5",
+            "name": "Git",
+            "oldUrl": "https://firebasestorage.googleapis.com/v0/b/jechercheundev.appspot.com/o/devicons%2Ficons%2Fgit.svg?alt=media&token=eee32daf-d3f6-434a-a334-9c7a7306e5d7",
+            "tags": [
+                "version-control"
+            ],
+            "url": "https://cdn.filestackcontent.com/NV7nar6ZRrC5zrIGO85h",
+            "value": 70,
+            "versions": {
+                "font": [
+                    "plain",
+                    "plain-wordmark"
+                ],
+                "svg": [
+                    "original",
+                    "original-wordmark",
+                    "plain",
+                    "plain-wordmark"
+                ]
+            }
         },
         {
-            "name": "Gmail",
-            "level": "Master",
-            "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "Go",
+            "value": 30
         },
         {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "Typescript",
+            "value": 30
+        },
+        {
+            "name": "Flutter",
+            "value": 50
+        },
+        {
+            "name": "Unity",
+            "value": 80
+        },
+        {
+            "name": "Bash",
+            "value": 40
+        },
+        {
+            "name": "TensorFlow",
+            "value": 70
         }
     ],
-    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }],
+    "languages": [
+        {
+            "name": "Chinese",
+            "position": 0,
+            "value": 100,
+            "language": "Chinese",
+            "id": "-M9yuZMzxGBGgn6kVZTk"
+        },
+        {
+            "name": "English",
+            "position": 1,
+            "value": 80,
+            "language": "English",
+            "id": "-M9yuZMzxGBGgn6kVZTl"
+        },
+        {
+            "name": "Japanese",
+            "position": 2,
+            "value": 40,
+            "language": "Japanese",
+            "id": "-M9yuZMzxGBGgn6kVZTj"
+        }
+    ],
     "interests": [
         {
-            "name": "Burritos",
-            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
+            "gifUrl": "https://media3.giphy.com/media/httS0Xzi9ZMQ0/giphy-downsized.gif?cid=e3b0c4423e5f59d9ad166e6936664a66513de4cd197ca08b&rid=giphy-downsized.gif",
+            "id": "d86e764f-5936-401f-822a-251b9e5381fb",
+            "index": 0,
+            "name": "Poker"
         },
         {
-            "name": "Dogs",
-            "gifUrl": "https://media.giphy.com/media/3o85xsGXVuYh8lM3EQ/giphy.gif"
+            "gifUrl": "https://media1.giphy.com/media/14wXMGbHjXK2k0/giphy-downsized.gif?cid=e3b0c442108399c532700097556329dd3de04415690bcccb&rid=giphy-downsized.gif",
+            "id": "106d3fda-7081-4813-9f26-37122e7ede4d",
+            "index": 1,
+            "name": "Travel"
         },
         {
-            "name": "Tendresse",
-            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
+            "gifUrl": "https://media3.giphy.com/media/1pAhncsuyFjcixgtLY/giphy.gif?cid=e3b0c442ae04f43885e007182f5c04c38a8962942d4a2e86&rid=giphy.gif",
+            "id": "963e608b-6eaf-4baf-bb66-dd9d351b86df",
+            "index": 2,
+            "name": "Play game"
         },
         {
-            "name": "Something",
-            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
+            "gifUrl": "https://media2.giphy.com/media/3o7rc0qU6m5hneMsuc/giphy.gif?cid=e3b0c442812098325c446a622894455921d96e514a9ff357&rid=giphy.gif",
+            "id": "25f5e31d-85a4-46af-8cdd-a367533f3f78",
+            "index": 3,
+            "name": "Movie"
         },
         {
-            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
+            "gifUrl": "https://media1.giphy.com/media/PApUlVfEFmZAQ/giphy.gif?cid=e3b0c442006a172b52a081346c1cf8b11b5c8dad18c90b5e&rid=giphy.gif",
+            "id": "efb4d0cc-b7bf-411b-86ea-7347f6ae0dec",
+            "index": 4,
+            "name": "Ufo"
         }
     ],
-    "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
-    "projects": [
-        {
-            "name": "Développement d'un serpent connecté",
-            "description": "Et oui, vous avez bien entendu !\nUn serpent connecté, c'est comme une montre connectée, mais en serpent, en fait ça ressemble pas une montre, mais ça reste connecté 🚀",
-            "images": []
-        }
-    ],
+    "projects": [],
     "specific": {
         "basics": {
             "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
+            "personalDescription": "4+ years experience as an AR studio engine developer, 5+ years experience in the game industrial, with strong 3D math and related game dev skills. Able to write cross-platform codes and debug on mobile platforms. Enjoy working in a team environment on a shared code base. Self-motivated, committed, creative and passionate about taking challenges and learning cutting-edge techs."
         },
         "dreamJob": {
             "locations": [
-                { "name": "Valenciennes, France" },
-                { "name": "Lille, France" },
-                { "name": "Paris,France" },
-                { "name": "Paris,France" },
-                { "name": "Lille, France" },
-                { "name": "Valenciennes, France" }
+                {
+                    "id": "ChIJdd4hrwug2EcRmSrV3Vo6llI",
+                    "index": 0,
+                    "placeId": "ChIJdd4hrwug2EcRmSrV3Vo6llI",
+                    "name": "London, United Kingdom"
+                }
             ],
+            "salary": "80",
+            "perks": {
+                "challenge": true,
+                "mood": true,
+                "perks": true,
+                "responsabilities": true,
+                "salary": true,
+                "training": true,
+                "work_hours": true
+            },
             "remoteFrequency": "regularly"
         },
-        "currentJob": {
-            "issues": { "boring_management": true, "boring_team": true }
+        "currentJob": {},
+        "education": {
+            "studiesLevel": 5
         },
-        "education": { "studiesLevel": 5 },
         "work": {
-            "contractTypes": ["permanent"],
-            "codingYears": 7,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
-            "searchState": "activelySearching",
-            "experienceYears": 9
+            "contractTypes": [
+                "permanent"
+            ],
+            "codingYears": 10,
+            "searchState": "notSearching",
+            "experienceYears": 5
         },
         "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
+            "embedUrl": "https://open.spotify.com/embed/album/6rRydp9XlVoLfTtA3qpWcn?si=FmmY0rchR9uq5CPKO3-pUQ"
         },
-        "interestedBy": "Angular, la blochain et les chatons."
-    },
-    "resumeCustomization": {
-        "imageHeader": {
-            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
-            "alt": "Default Banner"
-        },
-        "cardsOrder": [
-            { "type": "basics", "variant": 4 },
-            { "type": "projects", "variant": 4 },
-            { "type": "skills", "variant": 0 },
-            { "type": "dreamjob", "variant": 4 },
-            { "type": "experiences", "variant": 4 },
-            { "type": "studies", "variant": 4 },
-            { "type": "gifs", "variant": 0 },
-            { "type": "interestedBy", "variant": 3 },
-            { "type": "language", "variant": 4 },
-            { "type": "soundtrack", "variant": 4 }
-        ],
-        "fields": {
-            "work": {
-                "customDateFormat": "YYYY"
-            }
-        }
+        "interestedBy": "Any new and cool techs!"
     }
 }
