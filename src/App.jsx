@@ -81,12 +81,13 @@ function App() {
                         <Button
                             variant="outlined"
                             onClick={() => {
-                                window.location.href = 'Kevin_Wang_Resume.pdf';
+                                const w = window.open('about:blank');
+                                w.location.href = 'Kevin_Wang_Resume.pdf';
                             }}
                             color={'light'}
                         >
                             <SaveIcon className={classes.saveIcon} />
-                            <FormattedMessage id="Profile.header.jsonResume.pdf" defaultMessage="Download PDF" />
+                            <FormattedMessage id="Profile.header.jsonResume.viewResume" defaultMessage="View Resume" />
                         </Button>
                     ]
                 }
