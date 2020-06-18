@@ -23,7 +23,7 @@ const mergeFunction = (objValue, srcValue, key) => {
     return undefined;
 };
 
-const mode = process.env.REACT_APP_MODE || 'edit'; // edit or readOnly
+const mode = process.env.REACT_APP_MODE || 'readOnly'; // edit or readOnly
 
 function App() {
     const classes = useStyles();
@@ -71,12 +71,24 @@ function App() {
             }}
             additionalNodes={{
                 banner: {
-                    actionsButtons: mode === 'edit' && (
-                        <Button variant="outlined" onClick={handleClick} color={'light'}>
+                    actionsButtons: [
+                        mode === 'edit' && (
+                            <Button variant="outlined" onClick={handleClick} color={'light'}>
+                                <SaveIcon className={classes.saveIcon} />
+                                <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Export" />
+                            </Button>
+                        ),
+                        <Button
+                            variant="outlined"
+                            onClick={() => {
+                                window.location.href = 'Kevin_Wang_Resume.pdf';
+                            }}
+                            color={'light'}
+                        >
                             <SaveIcon className={classes.saveIcon} />
-                            <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Export" />
+                            <FormattedMessage id="Profile.header.jsonResume.pdf" defaultMessage="Download PDF" />
                         </Button>
-                    )
+                    ]
                 }
             }}
         />
