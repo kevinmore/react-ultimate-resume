@@ -10,7 +10,7 @@
     "work": [
         {
             "name": "Zappar",
-            "position": "Game Engine Developer",
+            "position": "AR Game Engine Developer",
             "index": 0,
             "startDate": "2016-07-01",
             "summary": "• Developed robust 3D model and image processing systems to load all\npopular and modern file formats, making the AR studio more accessible.\n• Integrated Sketchfab API, allowing developers to download contents directly\nfrom Sketchfab. User base was increased dramatically.\n• Implemented a modern physically based rendering pipeline. Added real time\ndynamic lighting and shadow to increase reality.\n• Implemented a dynamic UTF-8 font rendering approach, making it more\nfriendly for non-Latin languages.\n• Integrated Bullet Physics API into the AR studio, allowing users to create and\nexperience physical interactions.\n• Wrote cross-platform engine codes on Windows, MacOS and Linux.\nOptimized app performance on iOS&Android.\n• Collaborated with product managers and 3D artists, provide customized\nshaders and tailored tech opinions.\n• Worked closely with tech support team to deliver new features and provide\nsolutions on the developer forum.",
@@ -65,29 +65,18 @@
         }
     ],
     "skills": [
-        { "name": "C++", "value": 80, "index": 0, "id": "757f8023-6ec1-4960-a99a-736e617ee9d9" },
-        { "name": "Python", "value": 60, "index": 1, "id": "760a4055-14db-4697-877f-563c51367a21" },
-        { "name": "OpenGL", "value": 70, "index": 2, "id": "b5d382ae-2932-4e57-95e3-19e0bcea32ef" },
-        { "name": "Unity", "value": 80, "index": 3, "id": "eaf79772-b2eb-4065-9a93-6df6c4974d41" },
-        {
-            "id": "c2ac90a0-631a-454c-9bbe-bb3ab863ca57",
-            "name": "Git",
-            "oldUrl": "https://firebasestorage.googleapis.com/v0/b/jechercheundev.appspot.com/o/devicons%2Ficons%2Fgit.svg?alt=media&token=eee32daf-d3f6-434a-a334-9c7a7306e5d7",
-            "tags": ["version-control"],
-            "url": "https://cdn.filestackcontent.com/NV7nar6ZRrC5zrIGO85h",
-            "value": 70,
-            "versions": {
-                "font": ["plain", "plain-wordmark"],
-                "svg": ["original", "original-wordmark", "plain", "plain-wordmark"]
-            },
-            "index": 4
-        },
-        { "name": "TensorFlow", "value": 70, "index": 5, "id": "fca25871-4c20-4fd1-be84-b0d681b69685" },
-        { "name": "Go", "value": 30, "index": 6, "id": "0138f2b7-bc2d-4b59-89df-698b1b359d13" },
-        { "name": "Flutter", "value": 50, "index": 7, "id": "51fad87b-7f07-4784-add6-69e03fe8aad5" },
-        { "name": "Bash", "value": 40, "index": 8, "id": "d9238954-7293-43ab-925d-46aae4b4ffd7" },
-        { "name": "Typescript", "value": 30, "index": 9, "id": "212938f0-1a9c-406b-b3db-b9a26fd3b44b" },
-        { "name": "React", "index": 10, "value": 10, "id": "f7c162bb-67b8-4e1f-ba6e-2916710dcc4f" }
+        { "name": "C++", "value": 100, "index": 0, "id": "a581146b-36fc-4e1b-956a-108c07497ef1" },
+        { "name": "Unity", "value": 100, "index": 1, "id": "abaa150f-3232-4b52-ba31-60d407255bf6" },
+        { "name": "OpenGL", "value": 100, "index": 2, "id": "c34ad7e1-39aa-441c-90e6-641063b37e6a" },
+        { "name": "Python", "value": 70, "index": 3, "id": "fb420087-8e5b-452f-98fb-730b9ed0dcce" },
+        { "name": "TensorFlow", "value": 70, "index": 4, "id": "7faf304b-9acc-4717-97ec-512d034933d7" },
+        { "name": "Git", "index": 5, "value": 70, "id": "5557449e-5308-42c5-97c6-9b1bc7983643" },
+        { "name": "C#", "index": 6, "value": 50, "id": "3441dd89-35e4-463c-a330-303c2c46576e" },
+        { "name": "Flutter", "value": 50, "index": 7, "id": "88911260-a897-49cd-b722-3443c6ca19c5" },
+        { "name": "Go", "value": 40, "index": 8, "id": "422fdbcb-711d-4698-9a73-ef81afd6aca6" },
+        { "name": "Bash", "value": 30, "index": 9, "id": "7f3f510b-972b-4d5b-b639-ee241ac4fc54" },
+        { "name": "Typescript", "value": 30, "index": 10, "id": "5b2d86ad-79ba-464a-b344-b46490553f9b" },
+        { "name": "React", "index": 11, "value": 10, "id": "829aa45c-0da9-4e59-a073-dda64a04a34d" }
     ],
     "languages": [
         { "name": "Chinese", "position": 0, "value": 100, "language": "Chinese", "id": "-M9yuZMzxGBGgn6kVZTk" },
@@ -173,22 +162,19 @@
                     "id": "ChIJdd4hrwug2EcRmSrV3Vo6llI",
                     "index": 0,
                     "placeId": "ChIJdd4hrwug2EcRmSrV3Vo6llI",
-                    "name": "London, United Kingdom"
+                    "name": "London, GB"
                 }
             ],
             "salary": "70",
             "perks": {
-                "challenge": true,
-                "mood": true,
-                "perks": true,
-                "responsabilities": true,
                 "salary": true,
-                "training": true,
-                "work_hours": true
+                "challenge": true,
+                "work_hours": true,
+                "perks": true,
+                "mood": true
             },
             "remoteFrequency": "regularly"
         },
-        "currentJob": { "issues": { "no_challenge": true } },
         "education": { "studiesLevel": 5 },
         "work": {
             "contractTypes": ["permanent"],
