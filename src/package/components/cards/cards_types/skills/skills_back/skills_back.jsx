@@ -52,11 +52,11 @@ const Content = ({ data, handleAddButtonClick }) => {
     }));
     const [springTranslationProps, setSpringTranslationProps] = useSpring(() => ({ yt: 0, config: config.slow }));
 
-    const { top3Skills, othersSkills } = useMemo(() => {
+    const { topSkills, othersSkills } = useMemo(() => {
         const newData = [...(data.skills ?? [])];
-        const top3 = newData.splice(0, 3);
+        const top = newData.splice(0, 4);
         return {
-            top3Skills: top3,
+            topSkills: top,
             othersSkills: newData
         };
     }, [data]);
@@ -88,7 +88,7 @@ const Content = ({ data, handleAddButtonClick }) => {
         <div className={classes.container} onScroll={onScroll} style={springGraphOpacityProps}>
             <SkillsPieChart
                 variant={variant}
-                data={top3Skills}
+                data={topSkills}
                 springOnScrollOpacityProps={springOnScrollOpacityProps}
             />
             {othersSkills.length > 1 && (
