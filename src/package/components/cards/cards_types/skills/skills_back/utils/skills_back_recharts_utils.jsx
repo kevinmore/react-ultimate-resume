@@ -28,6 +28,7 @@ const CustomLabel = (props) => {
     const src = useMemo(() => {
         const hex = getHexFromPaletteColor(theme, backgroundColor);
         const luminance = chroma(hex).luminance();
+        if (name === 'GLSL') return 'opengl_logo.png';
         if (luminance < 0.98) {
             return `https://process.filestackapi.com/output=format:png/negative/modulate=brightness:1000/compress/${
                 techno?.handle || DEFAULT_TECHNO_HANDLE
@@ -58,7 +59,8 @@ const CustomLabel = (props) => {
             logoXOffset: cosLocal >= 0 ? textOffset - 12.5 : -textOffset - 12.5
         };
     }, [midAngle, outerRadius, cx, cy]);
-
+    const cellWidth = name === 'GLSL' ? 57.93 : 25;
+    const additionalXOffset = name === 'GLSL' ? -16 : 0;
     return (
         <g>
             <g>
@@ -68,7 +70,13 @@ const CustomLabel = (props) => {
                     fill="none"
                 />
                 <g transform={`translate(${endX + (cos >= 0 ? 1 : -1) * 8},${endY - 10})`} width="100">
-                    <image width="25" height="25" xlinkHref={src} y="-10" transform={`translate(${logoXOffset},-6)`} />
+                    <image
+                        width={cellWidth}
+                        height="25"
+                        xlinkHref={src}
+                        y="-10"
+                        transform={`translate(${logoXOffset + additionalXOffset},-6)`}
+                    />
                     <text
                         textAnchor={textAnchor}
                         fill={customColor}

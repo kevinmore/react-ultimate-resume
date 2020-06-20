@@ -67,7 +67,7 @@
     "skills": [
         { "name": "C++", "value": 100, "index": 0, "id": "a581146b-36fc-4e1b-956a-108c07497ef1" },
         { "name": "Unity", "value": 90, "index": 1, "id": "abaa150f-3232-4b52-ba31-60d407255bf6" },
-        { "name": "OpenGL", "value": 100, "index": 2, "id": "c34ad7e1-39aa-441c-90e6-641063b37e6a" },
+        { "name": "GLSL", "value": 100, "index": 2, "id": "c34ad7e1-39aa-441c-90e6-641063b37e6a" },
         { "name": "Python", "value": 70, "index": 3, "id": "fb420087-8e5b-452f-98fb-730b9ed0dcce" },
         { "name": "TensorFlow", "value": 70, "index": 4, "id": "7faf304b-9acc-4717-97ec-512d034933d7" },
         { "name": "Git", "index": 5, "value": 70, "id": "5557449e-5308-42c5-97c6-9b1bc7983643" },
