@@ -165,7 +165,7 @@
                     "name": "London, GB"
                 }
             ],
-            "salary": "70",
+            "salary": "75",
             "perks": {
                 "salary": true,
                 "challenge": true,
@@ -179,8 +179,8 @@
         "work": {
             "contractTypes": ["permanent"],
             "codingYears": 10,
-            "searchState": "notSearching",
-            "experienceYears": 5
+            "searchState": "openOpportunities",
+            "experienceYears": 6
         },
         "sound": {
             "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWSBcxmKiZ0B8?si=cxJAUPudQrm5wKkuZQmO2Q"
