@@ -5,7 +5,7 @@
         "title": "Game Engine Developer",
         "email": "enter@kevinwang.space",
         "summary": "Passionate about game, machine learning, hacking techs. Also a poker player.",
-        "location": { "countryCode": "GB", "city": "London" }
+        "location": { "locationCountryCode": "GB", "city": "London" }
     },
     "work": [
         {
@@ -166,13 +166,7 @@
                 }
             ],
             "salary": "75",
-            "perks": {
-                "salary": true,
-                "challenge": true,
-                "work_hours": true,
-                "perks": true,
-                "mood": true
-            },
+            "perks": { "salary": true, "challenge": true, "work_hours": true, "perks": true, "mood": true },
             "remoteFrequency": "regularly"
         },
         "education": { "studiesLevel": 5 },
@@ -180,7 +174,10 @@
             "contractTypes": ["permanent"],
             "codingYears": 10,
             "searchState": "openOpportunities",
-            "experienceYears": 6
+            "experienceYears": 6,
+            "codeExperienceYears": 6,
+            "otherExperienceYears": 0,
+            "codingReason": ""
         },
         "sound": {
             "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWSBcxmKiZ0B8?si=cxJAUPudQrm5wKkuZQmO2Q"
