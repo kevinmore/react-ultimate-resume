@@ -15,8 +15,7 @@ import { ReactComponent as SaveIcon } from './package/assets/icons/drop_file.svg
 import { styles } from './app_styles';
 
 const useStyles = createUseStyles(styles);
-const mergeFunction = (objValue, srcValue, key) => {
-    console.log({ objValue, srcValue, key });
+const mergeFunction = (objValue, srcValue) => {
     if (!objValue || isArray(objValue)) {
         return srcValue;
     }
@@ -66,6 +65,7 @@ function App() {
                 },
                 dismissFooter: true,
                 showContactInfos: true,
+                // maxSkills: 6,
                 customization,
                 maxCardsPerRow: 3
             }}
